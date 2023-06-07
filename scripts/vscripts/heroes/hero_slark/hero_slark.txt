@@ -1,0 +1,19 @@
+"DOTAAbilities"
+{  
+    "npc_dota_hero_slark_permanent_ability"
+    {
+        "BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_slark/hero_slark"
+		"AbilityTextureName"			"npc_dota_hero_slark_permanent_ability"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"						"3"
+        "AbilityValues"
+        {
+            "steal" "1 2 3"
+            "chance" "15 30 45"
+            "steal_death" "1"
+            "duration" "20 40 60"
+        }
+    } 
+}

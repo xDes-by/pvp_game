@@ -1,0 +1,37 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_kunkka_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_kunkka/hero_kunkka"
+		"AbilityTextureName"			"npc_dota_hero_kunkka_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		
+		"AbilityCooldown"				"10 8 6"
+		"AbilityCastRange"				"800"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"								"FIELD_FLOAT"
+				"duration"								"1.5"
+			}
+			"02"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"damage"								"100 150 200"
+			}
+			"03"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"radius"								"250"
+			}
+		}
+	}
+}

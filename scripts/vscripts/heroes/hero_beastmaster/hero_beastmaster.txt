@@ -1,0 +1,18 @@
+"DOTAAbilities"
+{
+    "npc_dota_hero_beastmaster_permanent_ability"
+    {
+        "BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_beastmaster/hero_beastmaster"
+		 "AbilityTextureName"            "npc_dota_hero_beastmaster_permanent_ability"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"						"3"
+        "AbilityValues"
+        {
+            "chance" "15"
+            "crit" "150 175 200"
+            "range" "600"
+        }
+    }
+}

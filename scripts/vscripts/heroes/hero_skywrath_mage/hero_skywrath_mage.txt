@@ -1,0 +1,31 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_skywrath_mage_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_skywrath_mage/hero_skywrath_mage"
+		"AbilityTextureName"			"npc_dota_hero_skywrath_mage_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		
+		"AbilityCastRange"				"700"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"radius"						"700"
+			}
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"dmg"							"3 6 9"
+			}
+		}
+	}
+}

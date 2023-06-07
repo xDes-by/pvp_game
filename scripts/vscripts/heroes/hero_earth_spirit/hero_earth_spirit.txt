@@ -1,0 +1,33 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_earth_spirit_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_earth_spirit/hero_earth_spirit"
+		"AbilityTextureName"			"npc_dota_hero_earth_spirit_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"range"									"200"
+			}
+			"02"
+			{
+				"var_type"								"FIELD_FLOAT"
+				"chance"								"12"
+			}
+			"03"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"crit"									"150 200 250"
+			}
+		}
+	}
+}

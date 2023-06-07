@@ -1,0 +1,19 @@
+"DOTAAbilities"
+{
+
+    "npc_dota_hero_elder_titan_permanent_ability"
+    {
+        "BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_elder_titan/hero_elder_titan"
+		"AbilityTextureName"			"npc_dota_hero_elder_titan_permanent_ability"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"						"3"
+        "AbilityValues"
+        {
+            "range" "280"
+            "move" "170"
+            "damage" "10 20 30"
+        }
+    }
+}

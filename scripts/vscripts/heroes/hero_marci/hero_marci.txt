@@ -1,0 +1,33 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_marci_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_marci/hero_marci"
+		"AbilityTextureName"			"npc_dota_hero_marci_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"chance"								"6 8 10"
+			}
+			"02"
+			{
+				"var_type"								"FIELD_FLOAT"
+				"min"								    "100 150 200"
+			}
+			"03"
+			{
+				"var_type"								"FIELD_FLOAT"
+				"max"								    "150 200 250"
+			}
+		}
+	}
+}

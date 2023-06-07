@@ -1,0 +1,33 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_viper_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_viper/hero_viper"
+		"AbilityTextureName"			"npc_dota_hero_viper_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"duration"				"3"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"20 40 60"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chance"				"25"
+			}
+		}
+	}
+}

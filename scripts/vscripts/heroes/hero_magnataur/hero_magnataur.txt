@@ -1,0 +1,16 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_magnataur_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_magnataur/hero_magnataur"
+		"AbilityTextureName"			"npc_dota_hero_magnataur_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE| DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		
+		"AbilityCooldown"				"5 4 3"
+	}
+}

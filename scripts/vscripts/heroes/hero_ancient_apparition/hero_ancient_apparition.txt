@@ -1,0 +1,33 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_ancient_apparition_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_ancient_apparition/hero_ancient_apparition"
+		"AbilityTextureName"			"npc_dota_hero_ancient_apparition_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"								"FIELD_FLOAT"
+				"duration"								"0.5 0.75 1.0"
+			}
+			"02"
+			{
+				"var_type"								"FIELD_INTIGER"
+				"debuff_duration"						"2"
+			}
+			"03"
+			{
+				"var_type"								"FIELD_INTIGER"
+				"chance"								"3 6 9"
+			}
+		}
+	}
+}

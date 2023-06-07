@@ -1,0 +1,30 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_razor_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_razor/hero_razor"
+		"AbilityTextureName"			"npc_dota_hero_razor_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		
+		"AbilityCastRange"				"400"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"radius"						"400"
+			}
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"slow"							"6 12 18"
+			}
+		}
+	}
+}

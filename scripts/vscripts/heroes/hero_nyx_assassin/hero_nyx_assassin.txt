@@ -1,0 +1,22 @@
+"DOTAAbilities"
+{
+    "npc_dota_hero_nyx_assassin_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_nyx_assassin/hero_nyx_assassin"
+		"AbilityTextureName"			"npc_dota_hero_nyx_assassin_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"	
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		
+		"AbilityCooldown"				"1"
+
+		"AbilityValues"
+		{
+			"chance"			"9 12 15"
+            "duration"          "1"
+		}
+	}
+}

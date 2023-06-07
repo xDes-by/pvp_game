@@ -1,0 +1,29 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_tidehunter_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_tidehunter/hero_tidehunter"
+		"AbilityTextureName"			"npc_dota_hero_tidehunter_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"chance"								"8 12 16"
+			}
+			"2"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"duration"								"1"
+			}
+		}
+	}
+}

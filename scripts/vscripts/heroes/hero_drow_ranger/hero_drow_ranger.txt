@@ -1,0 +1,16 @@
+"DOTAAbilities"
+{
+    "npc_dota_hero_drow_ranger_permanent_ability"
+    {
+        "BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_drow_ranger/hero_drow_ranger"
+		"AbilityTextureName"			"npc_dota_hero_drow_ranger_permanent_ability"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"						"3"
+        "AbilityValues"
+        {
+            "persent" 					"5 10 15"
+        }
+    }
+}

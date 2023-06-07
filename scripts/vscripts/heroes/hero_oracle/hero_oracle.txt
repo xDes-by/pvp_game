@@ -1,0 +1,27 @@
+"DOTAAbilities"
+{
+   		
+	"npc_dota_hero_oracle_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_oracle/hero_oracle"
+		"AbilityTextureName"			"npc_dota_hero_oracle_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+		
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"AbilityCooldown"				"20 17 14"
+		"AbilityCastRange"				"700"
+
+
+		"AbilityValues"
+		{
+			"chance"			"3 6 9"
+            "duration"          "1 2 3"
+            "regen"          	"1 2 3"
+            "outgoing"          "3 6 9"
+		}
+	}
+}

@@ -1,0 +1,35 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_abaddon_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_abaddon/hero_abaddon"
+		"AbilityTextureName"			"npc_dota_hero_abaddon_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"chance"						"3 6 9"
+			}
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"shield_block"					"50 100 150"
+			}
+			"03"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"duration"						"3"
+			}
+		}
+	}
+}

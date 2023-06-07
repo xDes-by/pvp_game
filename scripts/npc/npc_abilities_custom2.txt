@@ -1,0 +1,199 @@
+"DOTAAbilities"
+{
+
+	"empty_0"
+	{
+		"BaseClass"				"ability_datadriven"
+		"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_PASSIVE" // DOTA_ABILITY_BEHAVIOR_HIDDEN | 
+		"AbilityTextureName"	        "test/1_psd"
+		
+	}
+	"empty_1"
+	{
+		"BaseClass"				"ability_datadriven"
+		"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "test/2_psd"
+	}
+	"empty_2"
+	{
+		"BaseClass"				"ability_datadriven"
+		"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "test/3_psd"
+	}
+	"empty_3"
+	{
+		"BaseClass"				"ability_datadriven"
+		"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "test/4_psd"
+	}
+	"empty_4"
+	{
+		"BaseClass"				"ability_datadriven"
+		"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "test/5_psd"
+	}
+	"empty_5"
+	{
+		"BaseClass"				"ability_datadriven"
+		"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "test/6_psd"
+	}
+	"empty_6"
+	{
+		"BaseClass"				"ability_datadriven"
+		"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "test/7_psd"
+	}
+	
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	
+
+	"enchantress_impetus"
+	{
+		"AbilityDraftUltScepterAbility"		"enchantress_bunny_hop"
+	}
+
+	"clinkz_death_pact"
+	{
+		"AbilityDraftUltScepterAbility" 	"" // unlinked clinkz_burning_army
+	}
+
+	"clinkz_wind_walk"
+	{
+		"AbilityDraftUltScepterAbility"		"clinkz_burning_army"
+	}
+
+	"zuus_thundergods_wrath"
+	{
+		"AbilityDraftUltScepterAbility"		"" // unlinked zuus_cloud
+	}
+
+	"zuus_lightning_bolt"
+	{
+		"AbilityDraftUltScepterAbility"		"zuus_cloud"
+	}
+
+	"antimage_mana_void"
+	{
+		"AbilityDraftUltScepterAbility"		"" // unlinked antimage_mana_overload
+	}
+
+	"antimage_counterspell"
+	{
+		"AbilityDraftUltScepterAbility"		"antimage_mana_overload"
+	}
+
+	"broodmother_spawn_spiderlings"
+	{
+		"AbilityDraftUltScepterAbility"		"" // unlinked broodmother_sticky_snare
+	}
+
+	"broodmother_spin_web"
+	{
+		"AbilityDraftUltScepterAbility"		"broodmother_sticky_snare"
+	}
+
+	"shadow_demon_demonic_purge"
+	{
+		"AbilityDraftUltShardAbility"		"shadow_demon_demonic_cleanse"
+	}
+
+	"bloodseeker_rupture"
+	{
+		"AbilityDraftUltScepterAbility"			"bloodseeker_blood_mist"
+	}
+	
+	"meepo_poof"
+	{
+		"AbilityDraftUltScepterAbility"			"meepo_petrify"
+	}
+	
+	"meepo_divided_we_stand"
+	{
+		"AbilityDraftUltScepterAbility"			"" // unlinked meepo_petrify
+	}
+	
+	"oracle_false_promise"
+	{
+		"AbilityDraftUltScepterAbility"			"oracle_rain_of_destiny"
+	}
+	
+	"ogre_magi_fireblast"
+	{
+		"AbilityDraftUltScepterAbility"			"ogre_magi_unrefined_fireblast"
+	}
+	
+	"ogre_magi_multicast_lua"
+	{
+		"AbilityDraftUltScepterAbility"			"" // unlinked ogre_magi_unrefined_fireblast
+	}
+	
+	"ogre_magi_bloodlust"
+	{
+		"AbilityDraftUltShardAbility"			"ogre_magi_smash"
+	}
+	
+	"ogre_magi_multicast_lua"
+	{
+		"AbilityDraftUltShardAbility"			"" // unlinked ogre_magi_smash
+	}
+
+	"rattletrap_power_cogs"
+	{
+		"AbilityDraftUltShardAbility"		"rattletrap_jetpack"
+	}
+
+	"rattletrap_hookshot"
+	{
+		"AbilityDraftUltShardAbility"		""
+	}
+
+	"shredder_timber_chain"
+	{
+		"AbilityDraftUltShardAbility"		"shredder_flamethrower"
+	}
+
+	"shredder_chakram"
+	{
+		"AbilityDraftUltShardAbility"		""
+	}
+
+	"zuus_arc_lightning"
+	{
+		"AbilityDraftUltShardAbility"		"zuus_static_field_omg"
+	}
+
+	"omniknight_purification"
+	{
+		"AbilityDraftUltShardAbility"		"omniknight_degen_aura"
+	}
+	
+	"hoodwink_bushwhack"
+	{
+		"AbilityDraftUltShardAbility"		"hoodwink_decoy"
+	}
+	
+	"hoodwink_sharpshooter"
+	{
+		"AbilityDraftUltShardAbility"		"" // unlinked hoodwink_decoy
+	}
+	
+	"jakiro_liquid_fire"
+	{
+		"AbilityDraftUltShardAbility"		"jakiro_liquid_ice"
+	}
+	
+	"jakiro_macropyre"
+	{
+		"AbilityDraftUltShardAbility"		"" // unlinked jakiro_liquid_ice
+	}
+	
+	"life_stealer_ghoul_frenzy"
+	{
+		"AbilityDraftUltShardAbility"		"life_stealer_open_wounds"
+	}
+	
+	"life_stealer_infest"
+	{
+		"AbilityDraftUltShardAbility"		"" // unlinked life_stealer_open_wounds
+	}
+}

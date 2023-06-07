@@ -1,0 +1,33 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_troll_warlord_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_troll_warlord/hero_troll_warlord"
+		"AbilityTextureName"			"npc_dota_hero_troll_warlord_permanent_ability"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_stacks"			"6"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"agi"					"3"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chance"				"10 25 40"
+			}
+		}
+	}
+}

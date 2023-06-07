@@ -1,0 +1,21 @@
+"DOTAAbilities"
+{
+    "npc_dota_hero_skeleton_king_permanent_ability"
+    {
+        "BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_skeleton_king/hero_skeleton_king"
+				"AbilityTextureName"			"npc_dota_hero_skeleton_king_permanent_ability"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"						"3"
+        "AbilityCooldown"			    "300 240 180"
+        "AbilityValues"
+        {
+            "respawnduration" "3"
+            "slow_duration" "3"
+            "slow_radius" "900"
+            "attackslow" "75"
+            "movespeed" "75"
+        }
+    }
+}

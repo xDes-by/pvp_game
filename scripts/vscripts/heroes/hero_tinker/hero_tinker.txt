@@ -1,0 +1,22 @@
+"DOTAAbilities"
+{
+   	"npc_dota_hero_tinker_permanent_ability"
+	{
+		
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_tinker/hero_tinker"
+        "AbilityTextureName"            "npc_dota_hero_tinker_permanent_ability"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"FightRecapLevel"				"1"
+		"MaxLevel"                      "3"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"cd"				"6 9 12"
+			}
+		}
+	}
+}

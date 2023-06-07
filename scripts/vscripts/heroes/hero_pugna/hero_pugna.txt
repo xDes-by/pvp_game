@@ -1,0 +1,24 @@
+"DOTAAbilities"
+{
+    "npc_dota_hero_pugna_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_pugna/hero_pugna"
+		"AbilityTextureName"			"npc_dota_hero_pugna_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityCastRange"				"600"
+
+		"AbilityValues"
+		{
+			"range"						"600"
+			"delay"						"4 3 2"
+			"count"						"5"
+			"debuff"					"2 3 4"
+		}
+	}
+}

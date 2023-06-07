@@ -1,0 +1,24 @@
+"DOTAAbilities"
+{
+    "npc_dota_hero_shadow_shaman_permanent_ability"
+    {
+        "BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_shadow_shaman/hero_shadow_shaman"
+		"AbilityTextureName"			"npc_dota_hero_shadow_shaman_permanent_ability"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"AbilityCooldown"				"12 10 8"
+		"MaxLevel"						"3"
+		"AbilityCastRange"				"600"
+
+        "AbilityValues"
+        {
+            "range" "600"
+            "stun" "0.5 0.75 1"
+            "damage" "60 120 180"
+			"duration"	"6"
+			"boom_radius"	"250"
+        }
+    }
+}

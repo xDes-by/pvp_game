@@ -1,0 +1,21 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_alchemist_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_alchemist/hero_alchemist"
+		"AbilityTextureName"			"npc_dota_hero_alchemist_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		
+		"AbilityCooldown"				"120 100 80"
+		"AbilityValues"
+		{
+			"cd"			"120 100 80"
+
+		}
+	}
+}

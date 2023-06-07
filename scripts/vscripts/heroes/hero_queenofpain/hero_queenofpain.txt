@@ -1,0 +1,20 @@
+"DOTAAbilities"
+{
+    "npc_dota_hero_queenofpain_permanent_ability"
+    {
+        "BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_queenofpain/hero_queenofpain"
+		"AbilityTextureName"			"npc_dota_hero_queenofpain_permanent_ability"
+		"MaxLevel"						"3"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilitySpecial"
+		{		
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"cd"					"0.2 0.3 0.4"
+			}
+		}
+	}  
+}

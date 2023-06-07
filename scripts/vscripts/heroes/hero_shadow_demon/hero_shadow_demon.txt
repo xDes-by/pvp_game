@@ -1,0 +1,20 @@
+"DOTAAbilities"
+{
+    "npc_dota_hero_shadow_demon_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_shadow_demon/hero_shadow_demon"
+		"AbilityTextureName"			"npc_dota_hero_shadow_demon_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+
+		"AbilityValues"
+		{
+				"chance"			"3 6 9"
+				"regen"				"70 140 210"
+		}
+	}
+}

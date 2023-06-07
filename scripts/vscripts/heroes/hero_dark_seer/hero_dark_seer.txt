@@ -1,0 +1,29 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_dark_seer_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_dark_seer/hero_dark_seer"
+		"AbilityTextureName"			"npc_dota_hero_dark_seer_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+		
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"porog"				"10"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"damage"			"1.5 2.5 3.5"
+			}
+		}
+	}
+}

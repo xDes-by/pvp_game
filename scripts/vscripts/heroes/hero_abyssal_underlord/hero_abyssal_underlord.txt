@@ -1,0 +1,31 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_abyssal_underlord_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_abyssal_underlord/hero_abyssal_underlord"
+		"AbilityTextureName"			"npc_dota_hero_abyssal_underlord_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityCastRange"				"400"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"								"FIELD_FLOAT"
+				"radius"								"400"
+			}
+			"02"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"damage"								"15 30 45"
+			}
+		}
+	}
+}

@@ -1,0 +1,49 @@
+"DOTAAbilities"
+{
+    "npc_dota_hero_dark_willow_permanent_ability"
+    {
+        "BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_dark_willow/hero_dark_willow"
+		"AbilityTextureName"			"npc_dota_hero_dark_willow_permanent_ability"
+		"MaxLevel"						"3"
+
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+        "AbilityCooldown"			    "3"
+
+		"AbilitySpecial"
+		{		
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"attack_radius"			"300"
+			}
+
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"roaming_radius"			"200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"roaming_seconds_per_rotation"				"1.8"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"roaming_duration"		"2.0"
+			}
+            "05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chance"		        "10 15 20"
+			}
+		}
+	}  
+}

@@ -1,0 +1,34 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_leshrac_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_leshrac/hero_leshrac"
+		"AbilityTextureName"			"npc_dota_hero_leshrac_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+		
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"chance"								"15"
+			}
+			"02"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"lifestal"								"5 15 25"
+			}
+			"03"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"duration"								"1 2 3"
+			}
+		}
+	}
+}

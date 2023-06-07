@@ -1,0 +1,36 @@
+"DOTAAbilities"
+{
+    "npc_dota_hero_ursa_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_ursa/hero_ursa"
+		"AbilityTextureName"			"npc_dota_hero_ursa_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"hits"					"8 7 6"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"1.0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"splash"				"50"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"damage"				"20 30 40"
+			}
+		}
+	}
+}

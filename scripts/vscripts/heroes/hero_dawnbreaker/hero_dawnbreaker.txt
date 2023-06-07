@@ -1,0 +1,32 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_dawnbreaker_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_dawnbreaker/hero_dawnbreaker"
+		"AbilityTextureName"			"npc_dota_hero_dawnbreaker_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		
+		"AbilityCooldown"				"10 9 8"
+		"AbilityCastRange"				"300"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"								"FIELD_FLOAT"
+				"duration"								"0.5 0.75 1.0"
+			}
+			"02"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"radius"								"300"
+			}
+		}
+	}
+}

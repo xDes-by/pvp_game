@@ -1,0 +1,30 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_void_spirit_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_void_spirit/hero_void_spirit"
+		"AbilityTextureName"			"npc_dota_hero_void_spirit_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		
+		"AbilityCastRange"				"700"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"radius"						"700"
+			}
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"int"							"1 2 3"
+			}
+		}
+	}
+}

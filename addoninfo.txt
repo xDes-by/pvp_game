@@ -1,0 +1,22 @@
+"AddonInfo"
+{
+	"maps" "test"
+	"IsPlayable" "0"
+	PenaltiesEnabled = "0"
+	EnablePickRules = "0"
+	CheckAFKPlayers = "0"
+	"test"
+ 	{
+ 		"MaxPlayers" "10"
+		"MinPlayers" "1"
+ 	}
+	"Default_Keys"
+	{
+		"01"
+		{
+			"Key" "H"
+			"Command" "UseSpray"
+			"Name" "Use Buffout hotkey"
+		}
+	}
+}

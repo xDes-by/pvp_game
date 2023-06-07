@@ -1,0 +1,23 @@
+"DOTAAbilities"
+{
+    "npc_dota_hero_techies_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_techies/hero_techies"
+		"AbilityTextureName"			"npc_dota_hero_techies_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+
+		"AbilityValues"
+		{
+			"chance"			"5 10 15"
+            "duration"          "0.5 0.75 1"
+            "damage"          	"50 100 150"
+		}
+	}
+}

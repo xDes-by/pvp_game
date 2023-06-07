@@ -1,0 +1,16 @@
+"DOTAAbilities"
+{
+    "npc_dota_hero_visage_permanent_ability"
+    {
+        "BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_visage/hero_visage"
+				"AbilityTextureName"			"npc_dota_hero_visage_permanent_ability"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"						"3"
+        "AbilityValues"
+        {
+            "damage" "15 25 35"
+        }
+    }
+}

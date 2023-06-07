@@ -1,0 +1,31 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_omniknight_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_omniknight/hero_omniknight"
+		"AbilityTextureName"			"npc_dota_hero_omniknight_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		
+		"AbilityCooldown"				"16 12 8"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"								"FIELD_FLOAT"
+				"hp"									"100 150 200"
+			}
+			"02"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"radius"								"250"
+			}
+		}
+	}
+}

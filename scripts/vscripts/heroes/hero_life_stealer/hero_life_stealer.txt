@@ -1,0 +1,38 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_life_stealer_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_life_stealer/hero_life_stealer"
+		"AbilityTextureName"			"npc_dota_hero_life_stealer_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"attacks"								"6 5 4"
+			}
+			"02"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"diration"								"2"
+			}
+			"03"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"speed"									"15 30 45"
+			}
+			"09"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"damage"								"15 30 45"
+			}
+		}
+	}
+}

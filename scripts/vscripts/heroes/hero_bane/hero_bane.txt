@@ -1,0 +1,39 @@
+"DOTAAbilities"
+{
+    "npc_dota_hero_bane_permanent_ability"
+    {
+        "BaseClass"                        "ability_lua"
+        "ScriptFile"                    "heroes/hero_bane/hero_bane"
+        "AbilityTextureName"            "npc_dota_hero_bane_permanent_ability"
+        "FightRecapLevel"                "1"
+        "MaxLevel"                        "3" 
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET  | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+        "AbilityDuration"                "1"
+        "AbilityCooldown"                "8 6 4"    
+
+        "AbilitySpecial"
+        {
+            "01"
+            {
+                "var_type"                    "FIELD_FLOAT"
+                "duration"                    "1"
+            }
+            "02"
+            {
+                "var_type"                    "FIELD_FLOAT"
+                "animation_rate"            "0.2"
+            }
+            "03"
+            {
+                "var_type"                    "FIELD_INTEGER"
+                "cast_range_tooltip"        "500"
+            }
+            "06"
+            {
+                "var_type"                    "FIELD_FLOAT"
+                "interval"        				"8 6 4"
+            }
+        }
+    }
+}

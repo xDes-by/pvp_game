@@ -1,0 +1,26 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_enigma_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_enigma/hero_enigma"
+		"AbilityTextureName"			"npc_dota_hero_enigma_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		
+		"AbilityCooldown"				"10"
+		"AbilityCastRange"				"700"
+
+		"AbilityValues"
+		{
+				"near_damage"			"50 100 150"
+				"duration"				"2 3 4"
+				"far_damage"			"50 100 150"
+		}
+	}
+}

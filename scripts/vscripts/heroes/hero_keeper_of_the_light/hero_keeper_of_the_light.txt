@@ -1,0 +1,17 @@
+"DOTAAbilities"
+{  
+    "npc_dota_hero_keeper_of_the_light_permanent_ability"
+    {
+        "BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_keeper_of_the_light/hero_keeper_of_the_light"
+		"AbilityTextureName"			"npc_dota_hero_keeper_of_the_light_permanent_ability"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"						"3"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+        "AbilityValues"
+        {
+            "heal" "10 20 30"
+        }
+    } 
+}

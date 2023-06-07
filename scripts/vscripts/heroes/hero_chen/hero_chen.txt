@@ -1,0 +1,28 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_chen_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_chen/hero_chen"
+		"AbilityTextureName"			"npc_dota_hero_chen_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"radius"						"1200"
+			}
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"resist"						"4 7 10"
+			}
+		}
+	}
+}

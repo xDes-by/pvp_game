@@ -1,0 +1,32 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_mirana_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_mirana/hero_mirana"
+		"AbilityTextureName"			"npc_dota_hero_mirana_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		
+		"AbilityCooldown"				"15 12 9"
+		"AbilityCastRange"				"450"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"damage"								"40 80 120"
+			}
+			"02"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"radius"								"450"
+			}
+		}
+	}
+}

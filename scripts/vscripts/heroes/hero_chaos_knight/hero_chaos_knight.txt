@@ -1,0 +1,35 @@
+"DOTAAbilities"
+{
+	"npc_dota_hero_chaos_knight_permanent_ability"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/hero_chaos_knight/hero_chaos_knight"
+		"AbilityTextureName"			"npc_dota_hero_chaos_knight_permanent_ability"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		
+		"AbilityCooldown"				"30 25 20"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"illusion_duration"						"6"
+			}
+			"02"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"illusion_outgoing_tooltip"				"100"
+			}
+			"03"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"illusion_incoming_damage"				"250"
+			}
+		}
+	}
+}
