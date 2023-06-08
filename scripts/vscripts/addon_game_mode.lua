@@ -5,7 +5,10 @@ require("libraries/notifications")
 
 require("creepcontroller")
 require("web")
+require("shop")
 require("holdout_card_points")
+require("effects")
+
 
 _G.key = "test_key"--GetDedicatedServerKeyV3("123")
 
@@ -46,8 +49,6 @@ function BattleMode:InitGameMode()
 	GameModeEntity:SetPowerRuneSpawnInterval(120)
 	GameModeEntity:SetBountyRuneSpawnInterval(120)
 	GameModeEntity:SetRespawnTimeScale(0.5)
-	
-	-- GameModeEntity:SetItemAddedToInventoryFilter(Dynamic_Wrap( self, "AddedToInventoryFilter" ), context)
 
 	ListenToGameEvent('npc_spawned', Dynamic_Wrap(BattleMode, 'OnNPCSpawned'), self)	
 	ListenToGameEvent( "entity_killed", Dynamic_Wrap(BattleMode, 'OnEntityKilled' ), self )

@@ -3,6 +3,8 @@
 	custom_net_tables =
 	[
 		"card_points",
-		"hero_pick"
+		"hero_pick",
+		"sprays",
+		"highfive",
 	]
 }

@@ -24,6 +24,7 @@ function web:start_game()
 		if res.StatusCode == 200 and res.Body ~= nil then
 			_G.Players_info = json.decode(res.Body)
 			web:pick()
+			Shop:createShop()
 		else
 			print("ERROR START GAME")
 			print(res.StatusCode)
